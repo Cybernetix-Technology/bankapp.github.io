@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- <meta http-equiv="refresh" content="delay_time; URL=transaction.html" /> -->
+    <!-- <meta http-equiv="Refresh" content="10; url='transaction.html'" /> -->
+    <link rel="shortcut icon" type="image/png" href="img/icon.png"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="index_style.css" />
+    <title>DarknetBankApp</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a class="nav--link--logo" target="_top" href="index.html"><img src="img/logo.svg" alt="Bankist logo" class="nav--logo" id="logo" designer="Ibrahim" data-version-number="3.0" /></a>
+            <ul class="nav--links">
+                <li class="nav--item">
+                    <a class="nav--link" target="_top" href="index.html">Home</a>
+                </li>
+
+                <li class="nav--item">
+                    <a class="nav--link" href="#section--1">Features</a>
+                </li>
+
+                <li class="nav--item">
+                    <a class="nav--link" href="#section--2">Operations</a>
+                </li>
+
+                <li class="nav--item">
+                    <a class="nav--link" href="#section--3">Testimonials</a>
+                </li>
+
+                <li class="nav--item">
+                    <a class="nav--link" onclick="myFunction()" href="transaction.html">Sign-in</a>
+                </li>
+
+                <li class="nav--item">
+                    <a class="nav--link nav--link--btn btn--show-modal" href="#">Sign-up</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="header--title">
+            <!-- <h1 onclick="alert("HTML alert")" -->
+            <h1>
+                When<br />
+                <!-- Green Higlight Effect -->
+                <span class="highlight">local banking</span>
+                meets<br />
+                <span class="highlight">BLOCKCHAIN</span>
+            </h1>
+            <h4>The Original Darknet Crypto Banking</h4>
+            <button class="btn--text btn--scroll-to">Learn More &DownArrow;</button>
+            <img src="img/btc.png" class="header--img" alt="Minimalist bank items" />
+        </div>
+    </header>
+
+    <section class="section" id="section--1">
+        <div class="section--title">
+            <h2 class="section--description">Features</h2>
+            <h3 class="section--header">Everything you need in a modern bank and more.</h3>
+        </div>
+
+        <div class="features">
+            <img src="img/digital-lazy.jpg" data-src="img/digital.jpg" alt="Computer" class="features--img lazy-img" />
+            <div class="features--feature">
+                <div class="features--icon">
+                    <svg>
+                        <use xlink:href="img/icons.svg#icon-monitor"></use>
+                    </svg>
+                </div>
+                <h5 class="features--header">100% digital banking system</h5>
+                <p>
+                    Darknet Holding Company PLC also known as DHC PLC is a multinational financial services group, that offers retail and investment banking, crypto currency banking, pension management, asset management and payments services, headquartered in Victoria Island, Lagos, Nigeria
+                </p>
+            </div>
+            <div class="features--feature">
+                <div class="features--icon">
+                    <svg>
+                        <use xlink:href="img/icons.svg#icon-trending-up"></use>
+                    </svg>
+                </div>
+                <h5 class="features--header">Watch your BSV grow</h5>
+                <p>
+                    A digital asset that allows you to send and receive money instantly, anywhere in the world. 
+                    A network of competing entities collectively maintain it by processing and recording all transactions, 
+                    earning financial incentives in return. This allows for faster, cheaper, and more secure transactions 
+                    compared to traditional methods like bank transfers.
+                </p>
+            </div>
+            <img src="img/mybsv.png" data-src="img/mybsv.png" alt="Plant" class="features--img lazy-img" />
+            <img src="img/btcDebit2.png" data-src="img/btcDebit2.png" alt="Credit card" class="features--img lazy-img" />
+
+            <div class="features--feature">
+                <div class="features--icon">
+                    <svg>
+                        <use xlink:href="img/icons.svg#icon-credit-card"></use>
+                    </svg>
+                </div>
+                <h5 class="features--header">The nature of Bitcoin’s Trustlessness</h5>
+                <p>
+                    Darknet BTC Banking is proud to serve you in 22 full-service banking locations and several ATM locations.
+                    The role of nodes in the Bitcoin network is to act as a decentralised set of servers that broadcast spends 
+                    and detect double spends without relying on internet intermediaries, which should not be confused with trusted 
+                    third parties in general.
+                    While Bitcoin does not aim to eliminate the need for trust, it does provide a digital negotiable instrument that 
+                    is registered on the network and visible to all parties involved, ensuring a higher level of transparency.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="section--2">
+        <div class="section--title">
+            <h2 class="section--description">OPERATIONS</h2>
+            <h3 class="section--header">
+                Everything as simple as possible, but not simpler.
+            </h3>
+        </div>
+
+        <div class="operations">
+            <div class="operations--tab-container">
+                <button class="btn operations--tab operations--tab--1 operations--tab--active" data-tab="1">
+                    <span>01</span>Instant Transfers
+                </button>
+            
+                <button class="btn operations--tab operations--tab--2 operations--tab--active" data-tab="2">
+                    <span>02</span>Instant Loans
+                </button>
+
+                <button class="btn operations--tab operations--tab--3 operations--tab--active" data-tab="3">
+                    <span>03</span>Instant Closing
+                </button>
+            </div>
+            
+
+            <div class="operations--content operations--content--1 operations--content--active">
+                <div class="operations--icon operations--icon--1">
+                    <svg>
+                        <use xlink:href="img/icons.svg#icon-upload"></use>
+                    </svg>
+                </div>
+            
+                <h5 class="operations--header">Transfer money to anyone, instantly! No fees, no wallet service charge.</h5>
+                <p>
+                    Wright then emphasises the importance of Bitcoin’s security model in contrast to traditional Public 
+                    Key Infrastructures (PKIs). PKIs can be compromised, as evidenced by the DigiNotar breach that affected 
+                    over 200 government departments globally, including military and intelligence agencies.
+                </p>
+            </div>
+
+            <div class="operations--content operations--content--2">
+                <div class="operations--icon operations--icon--2">
+                    <svg>
+                        <use xlink:href="img/icons.svg#icon-home"></use>
+                    </svg>
+                </div>
+            
+                <h5 class="operations--header">Buy a home or make your dreams come true, with instant loans.</h5>
+                <p>
+                    Wright also discusses the question of which blockchain protocols will persist and continue to shape the future. 
+                    In the 1990s, the public was still concerned about the network protocol war. While there was a time when various 
+                    networks competed, ultimately only one prevailed, he said.
+                </p>
+            </div>
+
+            <div class="operations--content operations--content--3">
+                <div class="operations--icon operations--icon--3">
+                    <svg>
+                        <use xlink:href="img/icons.svg#icon-user-x"></use>
+                    </svg>
+                </div>
+                <h5 class="operations--header">You no longer need your account? No problem! Close it.</h5>
+                <p>
+                    Not just the fastest Bitcoin blockchain. Bitcoin SV is the fastest public ledger with the capability 
+                    to support over 50,000 transactions per second. But that’s not all. Powered by the Bitcoin blockchain’s 
+                    scripting language, each transaction can facilitate smart contracts, transfer a secure token, or create an 
+                    immutable record.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="section--3">
+        <div class="section--title section--title--testimonials">
+            <h2 class="section--description">Not Sure Yet?</h2>
+            <h3 class="section--header">Millions of Darknet Crypto Users are already making their lifes simpler.</h3>
+        </div>
+
+        <div class="slider">
+            <div class="slide">
+                <div class="testimonial">
+                    <h5 class="testimonial--header">Best Darknet Crypto Currency financial decission ever!</h5>
+                    <blockquote class="testimonial--text">
+                        In his recent opinion piece, published in the Wall Street Journal, the US Securities and Exchange 
+                        Commission (SEC) Chairman Gary Gensler fired a warning shot at the digital currency industry. 
+                        He raised several points about Bitcoin and its knockoffs, mainly whether they should be classified as securities.
+                        ‘At the core,’ he said of the majority of digital assets, ‘these tokens are securities because there’s 
+                        a group in the middle, and the public is anticipating profits based on that group.’ 
+                    </blockquote>
+                    <address class="testimonial--author">
+                        <img src="img/user-1.jpg" alt="" class="testimonial--photo" />
+                        <h6 class="testimonial--name">Ibrahim Muktar</h6>
+                        <p class="testimonial--location">Kuvuki Land, South Africa.</p>
+                    </address>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="testimonial">
+                    <h5 class="testimonial--header">The last step to becoming a Darknet Cryptocurrency complete minimalist</h5>
+                    <blockquote class="testimonial--text">
+                        Bitcoin Association recently spoke to Michał Ścisłowski, founder and CEO of Soundoshi, 
+                        the next-gen streaming platform that uses microtransactions and the features of a truly 
+                        scalable blockchain to take streaming to a whole new level.
+                        Ścisłowski discussed the innovative potential of his platform and how it solves some of 
+                        the major problems facing the music streaming business today.
+                    </blockquote>
+                    <address class="testimonial--author">
+                        <img src="img/user-2.jpg" alt="" class="testimonial--photo" />
+                        <h6 class="testimonial--name">Hadiza Muktar</h6>
+                        <p class="testimonial--location">Abu Dabi, Dubai.</p>
+                    </address>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="testimonial">
+                    <h5 class="testimonial--header">Finally free from old-school third party banking system.</h5>
+                    <blockquote class="testimonial--text">
+                        Over the years, myths about Bitcoin have taken on a life of their own drawing the attention 
+                        of speculators and bad actors who aim to take advantage of less knowledgeable investors.
+                        This has led to a growing class of digital assets which are popular and highly valued but 
+                        offer no scalability or utility. Speaking at the recent IEEE Blockchain Summit in Istanbul, 
+                        nChain’s Chief Scientist Dr Craig Wright dispelled some of the myths surrounding Bitcoin.
+                    </blockquote>
+                    <address class="testimonial--author">
+                        <img src="img/user-3.jpg" alt="" class="testimonial--photo" />
+                        <h6 class="testimonial--name">Ahmed Muktar</h6>
+                        <p class="testimonial--location">Cairo, Egypt.</p>
+                    </address>
+                </div>
+            </div>
+            <button class="slider--btn slider--btn--left">&larr;</button>
+            <button class="slider--btn slider--btn--right">&rarr;</button>
+            <div class="dots"></div>
+        </div>
+    </section>
+
+    <section class="section section--sign-up">
+        <div class="section--title">
+            <h3 class="section--header">
+                The best day to join Darknet Crypto Banking was one year ago. The second best is today.
+            </h3>
+        </div>
+        <button class="btn btn--show-modal">Sign-up</button>
+    </section>
+
+    <footer class="footer">
+        <ul class="footer--nav">
+            <li class="footer--item">
+                <a class="footer--link" href="#">About</a>
+            </li>
+
+            <li class="footer--item">
+                <a class="footer--link" href="#">Pricing</a>
+            </li>
+
+            <li class="footer--item">
+                <a class="footer--link" href="#">Terms of Use</a>
+            </li>
+
+            <li class="footer--item">
+                <a class="footer--link" href="#">Privacy Policy</a>
+            </li>
+
+            <li class="footer--item">
+                <a class="footer--link" href="#">Careers</a>
+            </li>
+
+            <li class="footer--item">
+                <a class="footer--link" href="#">Blog</a>
+            </li>
+
+            <li class="footer--item">
+                <a class="footer--link" href="#">Contact Us</a>
+            </li>
+        </ul>
+        <a class="nav--link--logo" target="_blank" href="#"><img src="img/logo.svg" alt="Logo" class="footer--logo" /></a>
+        <p class="footer--copyright">
+            &copy; Copyright 2023 |
+            <a class="footer--link twitter-link" target="_blank" href="https://twitter.com/MIgbenabor">Python Security | Inspired by Jonas Schmedtman</a>
+        </p>
+    </footer>
+
+    <div class="modal hidden">
+        <button class="btn--close-modal">&times;</button>
+        <h2 class="modal--header">
+            Open your Darknet Crypto Bank account in just <br /> <span class="highlight">5 minutes</span>
+        </h2>
+        <form class="modal--form">
+            <label>First Name</label>
+            <input type="text" />
+
+            <label>Last Name</label>
+            <input type="text" />
+
+            <label>Email Address</label>
+            <input type="email" />
+
+            <button class="btn">Next step &rarr;</button>
+        </form>
+    </div>
+    <div class="overlay hidden"></div>
+    <script src="index.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
